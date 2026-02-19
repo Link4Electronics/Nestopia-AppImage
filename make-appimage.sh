@@ -11,13 +11,14 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/nestopia.svg
 export DESKTOP=/usr/share/applications/nestopia.desktop
 export DEPLOY_OPENGL=1
+export PATH_MAPPING='/usr/share/nestopia:${SHARUN_DIR}/share/nestopia'
 
 # Deploy dependencies
-quick-sharun /usr/bin/nestopia /usr/share/nestopia
-cp /usr/share/nestopia/NstDatabase.xml ./AppDir/bin
-cp -r /usr/share/nestopia/palettes ./AppDir/bin
-cp -r /usr/share/nestopia/shaders ./AppDir/bin
-echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
+quick-sharun /usr/bin/nestopia #/usr/share/nestopia
+#cp /usr/share/nestopia/NstDatabase.xml ./AppDir/bin
+#cp -r /usr/share/nestopia/palettes ./AppDir/bin
+#cp -r /usr/share/nestopia/shaders ./AppDir/bin
+#echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
