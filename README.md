@@ -11,9 +11,9 @@
 </p>
 
 
-| Latest Stable Release | Upstream URL |
-| :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/Nestopia-AppImage/releases/latest) | [Click here](https://github.com/0ldsk00l/nestopia) |
+| Latest Stable Release | Latest Nightly Relase | Upstream URL |
+| :---: | :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/Nestopia-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev//Taisei-Project-AppImage/releases/tag/nightly) | [Click here](https://github.com/0ldsk00l/nestopia) |
 
 </div>
 
